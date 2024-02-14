@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken"
 
-const privateKey = 'eyJlbWFpbCI6InRlc3RAdGVzdC5mciIsInVzZXIiOnRydWUsImFkbWluIjp0cnVlLCJpYXQiOjE2NjY1MjQyNjYsImV4cCI6MTY2NjUyNzg2Nn0'
+const privateKey = process.env.TOKEN
 
 export const generateToken = async (userData) => {
 	const Token = await jwt.sign(userData, privateKey)

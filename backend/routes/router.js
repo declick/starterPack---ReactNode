@@ -39,7 +39,7 @@ router.post("/api/SignUp", SignUp);
 // ROUTES USERS
 router.get("/api/Profil/:id",middleware, GetProfil);
 router.post("/api/Profil/:id",middleware,  EditProfil);
-router.get("/api/Admin/DeleteProfil/:id",middleware,DeleteUser );
+router.get("/api/DeleteProfil/:id",middleware,DeleteUser );
 
 // ROUTES ADMIN
 router.get("/api/Admin/Dashboard", Dash);

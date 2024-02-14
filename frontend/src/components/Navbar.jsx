@@ -47,7 +47,7 @@ const Navbar = () => {
       <nav>
         <ul className={`menu ${menuOpen ? 'open' : ''}`}>
           <li className="title_nav">
-            <h1>XTechCloud</h1>
+            <h1>MENU</h1>
           </li>
           <li><a href="/" onClick={toggleMenu}>Accueil</a></li>
           {!state.login && (

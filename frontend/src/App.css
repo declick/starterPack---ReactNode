@@ -44,52 +44,10 @@ border-radius: 5px;
 font-weight: 500;
 font-size: 1.2rem;
 transition: all 0.3s ease;
-z-index: 2;
-}
-
-/* *****************************************************************
-TOP TO C COOL
-***************************************************************** */
-.top_button {
-  position: fixed;
-  bottom: 40px;
-  right: 25px;
-  z-index: 20;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.button_position {
-  background-color: #223843;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-.button_style:hover {
-  background: #fff;
-  color: #223843;
-  border: 2px solid #223843;
-}
-
-.top_button.show {
-  opacity: 1;
+z-index: 1;
 }
 
 
-@media screen and (max-width: 780px) {
-  .top_button {
-   display: none;
-  }
-  
-}
 /* NAVAGATION */
 
 nav {

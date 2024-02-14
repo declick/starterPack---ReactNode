@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Feb 08, 2024 at 09:21 AM
+-- Generation Time: Feb 14, 2024 at 10:31 AM
 -- Server version: 5.7.24
 -- PHP Version: 8.0.1
 
@@ -61,7 +61,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `role_id`, `prenom`, `nom`, `email`, `mdp`, `registration_date`) VALUES
-(1, 1, 'test', 'test', 'sophie@gmail.fr', '$2b$10$QBKlmxydEG2w.uM9YJwxeO3KUktKpdrZ/pQ31LaGiGN0q.SecuG3K', '2024-02-08 10:14:43');
+(1, 1, 'test', 'test', 'sophie@gmail.fr', '$2b$10$QBKlmxydEG2w.uM9YJwxeO3KUktKpdrZ/pQ31LaGiGN0q.SecuG3K', '2024-02-08 10:14:43'),
+(2, 2, 'dfghdfh', 'dfgdfgdfg', 'miracle@hotmail.fr', '$2b$10$9e0YOsK83tIAa4Usiz8X5.2uBFvsAcW6AZiJvXLaZ9FP9WVK8fJeq', '2024-02-08 10:39:09');
 
 --
 -- Indexes for dumped tables
@@ -94,7 +95,7 @@ ALTER TABLE `role`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Constraints for dumped tables
