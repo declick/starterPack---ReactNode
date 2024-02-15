@@ -7,24 +7,14 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  text-decoration: none;
 }
 
 html {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #fff;
 }
-
-body {
-  background-color: #07282C;
-
-}
-
-section {
-  min-height: 100vh;
-}
-
 
 label {
   margin-bottom: 10px;
@@ -64,9 +54,8 @@ nav {
  z-index: 2;
 }
 
-a {
-  text-decoration: none;
-  color: #fff;   
+a>u {
+  text-decoration: none; 
 }
 
 
@@ -153,6 +142,21 @@ h1{
 
 }
 
+a {
+  color: white;
+}
+
+
+/* HOME */
+.container-banner{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  gap: 45px;
+}
 /* SIGNUP */
 .signup-container {
   max-width: 400px;
@@ -161,6 +165,7 @@ h1{
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .signup-form {
@@ -171,6 +176,10 @@ h1{
   padding: 0;
   align-items: center;
   margin: 5px;
+}
+
+.signup-form a {
+  color: #A3EFE8;
 }
 
 .input-container {
@@ -223,6 +232,7 @@ h1{
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .login-form {
@@ -272,7 +282,11 @@ footer {
   align-items: center;
   z-index: 1;
   box-shadow: 2px 3px 10px 4px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
+
 footer .fab {
   font-size: 2rem;
   margin: 0 1rem;

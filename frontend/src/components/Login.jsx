@@ -70,7 +70,7 @@ const Login = () => {
                     </div>
                     </label>
                     <div>
-                        <input type="submit" value="Valider" />
+                        <input className='btn' type="submit" value="Valider" />
                     </div>
                     <h3>{errorMessage}</h3>
                 </form>

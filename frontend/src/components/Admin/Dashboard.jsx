@@ -35,7 +35,7 @@ const Dashboard = () => {
       <div className="dashboard">
         <div className="container-ui">
 
-
+          <h1>Dashboard</h1>
             </div>
 
       </div>

@@ -16,7 +16,8 @@ const Home = () => {
 
       <section className="banner" id="banner">
         <div className="container-banner">
-          
+          <h1> HOME </h1>
+
         </div>
       </section>
 
